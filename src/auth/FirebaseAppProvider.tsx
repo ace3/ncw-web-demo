@@ -3,12 +3,12 @@ import React, { createContext } from "react";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA2E5vK3fhxvftpfS02T8eIC3SrXnIUjrs",
-  authDomain: "fireblocks-sdk-demo.firebaseapp.com",
-  projectId: "fireblocks-sdk-demo",
-  storageBucket: "fireblocks-sdk-demo.appspot.com",
-  messagingSenderId: "127498444203",
-  appId: "1:127498444203:web:31ff24e7a4c6bfa92e46ee",
+  apiKey: "AIzaSyB-bRPaAzOGr6DTBwZ7jD81r106g5Ilzfc",
+  authDomain: "ncw-nobi.firebaseapp.com",
+  projectId: "ncw-nobi",
+  storageBucket: "ncw-nobi.appspot.com",
+  messagingSenderId: "141751584437",
+  appId: "1:141751584437:web:083da837c89a12d6fca0fc",
 };
 
 export const FirebaseAppProviderContext = createContext<FirebaseApp | null>(null);
